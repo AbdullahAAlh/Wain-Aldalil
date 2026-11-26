@@ -1,0 +1,4 @@
+case,manual_seconds,assisted_seconds,saved_seconds,manual_judgment_correct,assisted_judgment_correct,manual_evidence_complete,assisted_evidence_complete,manual_pdf_pages,assisted_pdf_pages,review_decision
+waveguides_and_dfb,349,67,282,1,1,0,1,6,6 and 7,accepted_without_change
+sensor_spacing,218,39,179,1,1,1,1,10,10,accepted_without_change
+total,567,106,461,2,2,1,2,,,

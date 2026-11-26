@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>وين الدليل؟ · لوحة المشروع</title><style>
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:18px}
+body{margin:0;color:#193545;background:#f3f7f7;font-family:"Noto Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif;line-height:1.83;font-size:16px}
+h1,h2,h3,h4,p,ul,ol,dl{margin:0 0 .55em}h1,h2,h3{line-height:1.45;color:#193b50}
+a{color:#086c61;text-decoration-thickness:1px;text-underline-offset:.2em}a:hover{color:#163e52}
+a:focus-visible,summary:focus-visible{outline:3px solid #b8741b;outline-offset:.22rem}
+.hero{background:#143747;color:white;border-bottom:5px solid #46a89b}.hero .inner{padding:30px 0 26px}
+.hero h1{font-size:clamp(2rem,4.8vw,3.15rem);color:#fff;margin:0 0 4px;font-weight:750}
+.hero p{max-width:57em;color:#e3eff0;margin:0}.context{font-size:.87rem;color:#bde4dd;margin:0 0 4px}
+.inner,.main{width:min(1040px,calc(100% - 38px));margin:auto}
+.main{padding:24px 0 40px}strong{color:#153e48}h2{font-size:1.4rem}h3{font-size:1.05rem}
+.panel,.sheet{border:1px solid #d0dddd;background:white;border-radius:12px;padding:21px 24px;margin:0 0 18px}
+.panel>:last-child,.step>:last-child,td>:last-child,.report-note>:last-child{margin-bottom:0}
+table{border-collapse:collapse;width:100%;text-align:start;margin:.55rem 0;font-size:.94em;line-height:1.67}
+thead th,th{background:#eaf3f2;color:#214d53;font-weight:650}th,td{border:1px solid #d2dfdf;padding:8px 10px;vertical-align:top;text-align:start;overflow-wrap:anywhere}
+td[style],th[style]{text-align:start!important}.number,.ltr{direction:ltr;unicode-bidi:isolate;display:inline-block;font-variant-numeric:tabular-nums}
+.wrap{max-width:100%;overflow-x:auto}.muted,figcaption{color:#4d646c;font-size:.92rem}
+.button{padding:7px 15px;border:1px solid #8eb5b1;border-radius:6px;background:#f5faf9;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:650;min-height:40px}
+.primary{background:#0b695e;color:white;border-color:#0b695e}.primary:hover{color:white;background:#0e574f}
+.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:11px}
+.jump{display:flex;flex-wrap:wrap;gap:4px 22px;align-items:center;margin:0 0 18px;font-size:.94rem}
+.jump a{padding:4px 0}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 16px}
+.stat{padding:14px 17px;border:1px solid #d0dddd;background:white;border-radius:9px}.stat:last-child{background:#e6f4f0;border-color:#8bbcaf}
+.stat span{display:block;color:#355760;font-size:.88rem}.stat strong{font-family:Arial,sans-serif;font-size:1.73rem;line-height:1.35;display:block;color:#184752}
+figure{margin:.7em 0 1em}figure img,.shot{display:block;max-width:100%;height:auto;border:1px solid #d6e2e1;border-radius:7px}
+img.diagram{width:min(100%,490px);margin:0 auto 8px;border:none}figcaption{text-align:center}
+details{border-top:1px solid #dce5e4;padding:8px 0}summary{cursor:pointer;color:#115d56;font-weight:650}
+details[open]>summary{margin-bottom:8px}details img{margin-top:8px}ol,ul{padding-inline-start:1.45em}li{margin:0 0 .3em}
+pre{font:inherit;line-height:1.9;white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f7f5;border-inline-start:4px solid #509a8b;margin:.8em 0;padding:12px 15px;text-align:start}
+code{font-family:ui-monospace,monospace;font-size:.9em;overflow-wrap:anywhere}
+.callout,.report-note{padding:10px 15px;background:#eef6f4;border-inline-start:4px solid #509a8b;margin:13px 0 0}
+footer{font-size:.88em;color:#4e6870;border-top:1px solid #d2dfdf;padding-top:8px}
+.sr-skip{position:absolute;top:-100px;padding:6px;background:#fff}.sr-skip:focus{top:3px}
+@media(max-width:640px){body{font-size:15px}.inner,.main{width:calc(100% - 22px)}.panel,.sheet{padding:14px 12px}
+.stats{gap:5px}.stat{padding:9px 7px}.stat strong{font-size:1.28rem}.stat span{font-size:.76rem}
+.jump{gap:2px 12px}th,td{padding:5px 6px}.wrap table{min-width:470px}.actions{gap:6px}.button{padding:5px 9px}.hero .inner{padding:23px 0 17px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.navline{background:white;border-bottom:1px solid #d2dfdf;padding:12px 0}.navline .inner{display:flex;flex-wrap:wrap;gap:4px 18px}
+.sheet{padding:28px 32px;margin-bottom:24px}.sheet-head{display:flex;align-items:center;justify-content:space-between;gap:8px;border-bottom:3px solid #47978c;padding-bottom:10px;margin-bottom:15px}
+.sheet-head h1{font-size:1.8rem;margin:0}.section-path,.page-no{font-size:.85rem;color:#45666b}.page-no{direction:ltr;white-space:nowrap}
+.step{margin:0 0 17px}.step h2{font-size:1.18rem}.step table{table-layout:fixed}
+.step table tr>*:first-child:nth-last-child(2){width:35%}#step-3 table tr>*:first-child{width:7%}#step-3 table tr>*:nth-child(2){width:35%}#step-3 table tr>*:nth-child(3){width:18%}
+#step-6 table tr>*:first-child{width:12%}#step-7 table tr>*:first-child{width:22%}
+dt{font-weight:700;color:#17695e}dd{margin:0 0 6px}.rice{background:#eff6f4;border-inline-start:4px solid #509a8b;padding:10px 16px;margin:12px 0 17px}
+.rice dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px}.rice dd{margin:0}
+.sheet-foot{display:flex;justify-content:space-between;gap:8px;font-size:.8em;margin-top:20px}
+.overview{background:#edf6f3;border-inline-start:4px solid #509a8b;padding:8px 13px;margin:0 0 13px}
+@page{size:A4;margin:0}
+@media print{
+ *{print-color-adjust:exact;-webkit-print-color-adjust:exact}html,body{background:white;margin:0;padding:0;scroll-behavior:auto;font-size:10pt}
+ .navline{display:none}.main{margin:0;padding:0;width:auto}
+ .sheet{break-after:page;border:0;border-radius:0;margin:0;padding:13mm 14mm 10mm;width:210mm;height:296mm;display:flex;flex-direction:column;box-sizing:border-box}
+ .sheet:last-child{break-after:auto}.sheet-head{margin:0 0 3.5mm}.sheet-head h1{font-size:21pt}.sheet-foot{margin-top:auto;font-size:8pt}
+ .sheet-body{flex:0 0 auto}.step{margin-bottom:3mm}.step h2{font-size:13pt;margin:0 0 1.5mm}
+ .step table,table{font-size:10.05pt;line-height:1.53;margin:1.6mm 0}.step td,.step th,td,th{padding:1.4mm 1.8mm}
+ .section-path,.page-no{font-size:9pt}.rice{margin:2mm 0 3mm;padding:2.3mm 3.5mm;line-height:1.6}.rice h3,.plan h3{font-size:12pt}
+ .report-note{font-size:10pt;line-height:1.6;margin:2mm 0 0;padding:2.2mm 3mm}.wrap{overflow:visible}.wrap table{min-width:0}tr{break-inside:avoid}
+}
+
+.board-masthead{align-items:flex-start}.board-masthead .page-no{padding-top:.25em}
+.board-identity{margin:.28rem 0 0;color:#274955;line-height:1.7;font-size:.99em}
+.identity-field{display:inline-block;white-space:nowrap}.identity-separator{color:#687d80;padding:0 .2em}
+.opening-section{font-size:1.23rem;margin:0 0 .45em;color:#193b50}
+@media print{.board-identity{font-size:10.6pt;margin:1mm 0 0;line-height:1.65}.opening-section{font-size:13pt;margin:0 0 1.7mm}}
+</style></head><body><nav class="navline"><div class="inner"><a href="../START-HERE.html">صفحة البداية</a><a href="capstone-wain-aldalil.pdf">فتح نسخة PDF</a><a href="#sheet-1">المهمة وطريقة العمل</a><a href="#sheet-2">التفويض والبيانات</a><a href="#sheet-3">الاختبار والأثر</a><a href="#sheet-4">المخاطر والمتابعة</a></div></nav><main class="main"><article class="sheet" id="sheet-1"><div class="sheet-head board-masthead"><div><div class="section-path">وين الدليل؟</div><h1>لوحة المشروع</h1><p class="board-identity"><span class="identity-field"><strong>الاسم:</strong> عبدالله عبدالعزيز الحميدان</span> <span class="identity-separator" aria-hidden="true">·</span> <span class="identity-field"><strong>المسار:</strong> مساعد مخصّص</span> <span class="identity-separator" aria-hidden="true">·</span> <span class="identity-field"><strong>التطبيق المعتمد:</strong> <bdi dir="ltr">ChatGPT</bdi></span></p></div><span class="page-no">1 / 4</span></div><div class="sheet-body"><h2 class="opening-section">المهمة وطريقة العمل</h2><p class="overview">في حالتين من تقرير EE424، انخفض زمن التحقّق من 9 دقائق و27 ثانية إلى دقيقة و46 ثانية، واكتملت إحالات الدليل في الحالتين بعد مراجعتي.</p><div class="step" id="step-1">
+  <h2>1 · المهمة وخط الأساس</h2>
+  <div class="wrap"><table>
+    <tr><th>البند</th><th>التطبيق في المشروع</th></tr>
+    <tr><td>بداية المهمة ونهايتها</td><td class="fill">أراجع جملة فنية من تقرير هندسي مقابل مرجعها. أبدأ بجملة جاهزة ومرجع مفتوح، وأنتهي بتسجيل الحكم والدليل ورقم الصفحة.</td></tr>
+    <tr><td>الوقت اليوم لكل مرة (دقيقة)، وكيف قسته</td><td class="fill">4 دقائق و44 ثانية لكل جملة تقريبًا. قست بالمؤقّت حالتين يدويتين بلغ مجموعهما 9 دقائق و27 ثانية.</td></tr>
+    <tr><td>كم مرة تتكرر في الشهر؟ وهل يؤديها غيرك؟</td><td class="fill">أقدّر 50 جملة شهريًا في نحو 20 تقريرًا أو بحثًا. تولّيت القياس بنفسي.</td></tr>
+    <tr><td>ما أكثر ما يتعب فيها؟ (الوقت، الأخطاء، اختلاف النتيجة، الجودة)</td><td class="fill">تحديد موضع الدليل، خصوصًا عندما تتوزع أجزاء الجملة على أكثر من صفحة.</td></tr>
+  </table>
+</div></div><div class="step" id="step-2">
+  <h2>2 · المسار، ولماذا</h2>
+  <div class="wrap"><table>
+    <tr><th>البند</th><th>التطبيق في المشروع</th></tr>
+    <tr><td>المسار المختار</td><td class="fill">مساعد مخصّص في مشروع مستقل داخل ChatGPT.</td></tr>
+    <tr><td>سبب اختيار مشروع بتعليمات ثابتة</td><td class="fill">أكرّر نفس قواعد التحقّق وصيغة الرد مع مراجع مختلفة. تحفظ تعليمات المشروع هذه القواعد بين المحادثات وتبقى مراجعة النتيجة واعتمادها بيدي.</td></tr>
+  </table>
+</div></div><div class="step" id="step-3">
+  <h2>3 · سير العمل</h2>
+  <div class="wrap"><table>
+    <tr><th>#</th><th>الخطوة</th><th>المسؤول</th><th>ما الذي يُفحص بعدها</th></tr>
+    <tr><td>1</td><td class="fill">أحدّد الجملة وأرفق مرجعها.</td><td class="fill">أنا</td><td class="fill">المصدر مرتبط بالجملة ومسموح باستخدامه، والبيانات غير اللازمة مستبعدة.</td></tr>
+    <tr><td>2</td><td class="fill">يفكّك الجملة ويقارن الأعداد والوحدات والمصطلحات والشروط بالمصدر.</td><td class="fill">التطبيق</td><td class="fill">يفحص كل جزء مؤثر ويحدّد الصفحات اللازمة.</td></tr>
+    <tr><td>3</td><td class="fill">يعرض الحكم والدليل والموضع ويصرّح بالنقص أو التعارض.</td><td class="fill">يقترح وأنا أعتمد</td><td class="fill">لكل جزء مدعوم دليل وإحالة قابلة للتحقّق.</td></tr>
+    <tr><td>4</td><td class="fill">أطابق الإحالات وأعتمد الحكم أو أصحّحه.</td><td class="fill">أنا</td><td class="fill">الحكم النهائي يطابق الصفحات التي فتحتها بنفسي.</td></tr>
+  </table>
+</div></div></div><footer class="sheet-foot"><span>برنامج رفع الإنتاجية بالذكاء الاصطناعي · أكاديمية سدايا</span><span>وين الدليل؟</span></footer></article><article class="sheet" id="sheet-2"><div class="sheet-head"><div><div class="section-path">وين الدليل؟ &nbsp; / &nbsp; لوحة المشروع</div><h1>التفويض والبيانات</h1></div><span class="page-no">2 / 4</span></div><div class="sheet-body"><div class="step" id="step-4">
+  <h2>4 · بطاقة التفويض والأمر الجاهز</h2>
+  <div class="wrap"><table>
+    <tr><th>الحقل</th><th>تفاصيل التفويض</th></tr>
+    <tr><td>ما يُسند</td><td class="fill">البحث داخل المرجع، ومقارنة عناصر الجملة، واقتراح الحكم مع الأدلة وأرقام الصفحات.</td></tr>
+    <tr><td>ما يبقى لي</td><td class="fill">فتح الصفحات ومطابقة الدليل واعتماد النتيجة أو تعديل الجملة.</td></tr>
+    <tr><td>البيانات</td><td class="fill">الجملة الفنية والمرجع المرتبط بها، بعد إزالة البيانات الزائدة والتأكد من أن الاستخدام مسموح.</td></tr>
+    <tr><td>معيار القبول (بعدد أو حد)</td><td class="fill">كل جزء يُصنّف مدعومًا له دليل واحد على الأقل ورقم صفحة يمكن التحقق منه. يذكر المساعد ما نقص أو تعارض، ويعطي حكمًا واحدًا للجملة.</td></tr>
+    <tr><td>الأمر الجاهز، أو التعليمات، أو المهارة، أو المواصفات</td><td class="fill"><a href="#prompt">اقرأ الأمر الجاهز وفق إطار RICE</a></td></tr>
+  </table>
+</div></div><section id="prompt" class="rice"><h3>الأمر الجاهز وفق إطار RICE</h3><dl>
+<dt>الدور</dt><dd>أنت مساعد «وين الدليل؟» المتخصّص في فحص مدى دعم مرجع محدد لجملة فنية.</dd>
+<dt>التعليمات</dt><dd>اعتمد على ملف PDF المرفق. افحص كل جزء مؤثر من [الجملة الفنية]، بما في ذلك الأعداد والوحدات والمصطلحات وشروط التجربة. حدّد الصفحات اللازمة إذا توزّع الدليل، وصرّح بأي نقص أو تعارض.</dd>
+<dt>السياق</dt><dd>أرسل جملة أو ملاحظات فنية ومرجعًا مرتبطًا بها. سأفتح الصفحات وأراجع النتيجة قبل استخدامها.</dd>
+<dt>المخرج المتوقع</dt><dd>أعط حكمًا واحدًا من «دعم كامل» أو «دعم جزئي» أو «لا يدعم». أرفق اقتباسًا قصيرًا أو وصفًا دقيقًا للدليل ورقم الصفحة كما يظهر في عارض PDF.</dd></dl></section><div class="step" id="step-5">
+  <h2>5 · البيانات</h2>
+  <div class="wrap"><table>
+    <tr><th>السؤال</th><th>نعم / لا · كيف</th></tr>
+    <tr><td>هل أُزيلت الأسماء والهويات وكل ما يدل على شخص، أو رُمّزت؟</td><td class="fill">نعم للمواد المنشورة في التسليم. أزيل المعرّفات الحقيقية أو أستبدلها ببيانات تدريبية وهمية عند الحاجة.</td></tr>
+    <tr><td>هل تسمح سياسة الجهة وتصنيف البيانات برفعها إلى هذا التطبيق؟</td><td class="fill">أستخدم المواد الوهمية أو المسموح باستخدامها. أتحقق من إذن الاستخدام قبل إرفاق أي مادة جديدة.</td></tr>
+    <tr><td>هل تقتصر المادة على ما تحتاجه المهمة؟</td><td class="fill">نعم. المدخل جملة والمرجع المرتبط بها. أستخدم الصفحات اللازمة فقط إذا أمكن تحديدها مسبقًا.</td></tr>
+    <tr><td>ما الذي لا يُرفع أبدًا في هذه المهمة؟</td><td class="fill">الأسماء والأرقام الجامعية الحقيقية غير اللازمة، والمواد المقيّدة، وتقارير الدراسة الأصلية في المستودع المشترك.</td></tr>
+  </table>
+</div></div></div><footer class="sheet-foot"><span>برنامج رفع الإنتاجية بالذكاء الاصطناعي · أكاديمية سدايا</span><span>وين الدليل؟</span></footer></article><article class="sheet" id="sheet-3"><div class="sheet-head"><div><div class="section-path">وين الدليل؟ &nbsp; / &nbsp; لوحة المشروع</div><h1>الاختبار والأثر</h1></div><span class="page-no">3 / 4</span></div><div class="sheet-body"><div class="step" id="step-6">
+  <h2>6 · معيار القبول وحالات الاختبار</h2>
+  <div class="wrap"><table>
+    <tr><th>الحالة</th><th>المدخل</th><th>النتيجة المقبولة</th><th>ماذا حدث</th></tr>
+    <tr><td>نموذجية</td><td class="fill">جملة عن مسافتَي توزيع الحساسات.</td><td class="fill">يطابق القيمتين مع المرجع ويذكر صفحة الدليل.</td><td class="fill">حكم صحيح بدليل من الصفحة 10.</td></tr>
+    <tr><td>فوضوية</td><td class="fill">ملاحظات غير مرتّبة فيها تحويل وحدات واختصار «لكل قناة».</td><td class="fill">يطابق الوحدات ويفسّر الاختصار من المرجع ويذكر الصفحة.</td><td class="fill">أثبت التحويل بين nm وµm، وفسّر per ch. بأنها لكل قناة، وأحال إلى الصفحة 6.</td></tr>
+    <tr><td>حدّية</td><td class="fill">قيمة غُيّرت عمدًا في جملة عن توزيع الحساسات.</td><td class="fill">يميّز الجزء المدعوم ويذكر القيمة الصحيحة والصفحة.</td><td class="fill">أعاد 250 mm إلى 200 mm، وأكّد 300 mm لمسافة القوس في الصفحة 10.</td></tr>
+  <tr><td>دليل موزّع</td><td>جملة عن عدد الموجّهات والليزرات ونوعها.</td><td>يُثبت كل جزء ويذكر جميع الصفحات اللازمة.</td><td>الصفحة 6 للأعداد، والصفحة 7 لنوع DFB.</td></tr><tr><td>أمان</td><td>اسم ورقم جامعي وهميّان في المدخل.</td><td>يقتصر الرد على الفحص الفني.</td><td>ذُكرت الصفحة 10 وغاب الحقلان عن الرد الظاهر.</td></tr></table>
+</div></div><div class="step" id="step-7">
+  <h2>7 · النتيجة المقيسة</h2>
+  <div class="wrap"><table>
+    <tr><th>المؤشر</th><th>قبل</th><th>التجربة 1</th><th>التجربة 2</th><th>في الشهر، إن ثبتت</th></tr>
+    <tr><td>الوقت بالدقائق والثواني، شاملًا المراجعة</td><td class="fill">متوسط 4:44 تقريبًا. التجربة اليدوية 1 استغرقت 5:49، والثانية 3:38.</td><td class="fill">1:07</td><td class="fill">0:39</td><td class="fill">3 ساعات و12 دقيقة وفرًا متوقعًا عند 50 جملة شهريًا. يعتمد على تجربتين وتكرار مقدّر.</td></tr>
+    <tr><td><span>صحة الحكم واكتمال الإحالة</span></td><td class="fill">حكم صحيح في 2 من 2. فاتتني صفحة تثبت نوع الليزر في الحالة الأولى.</td><td class="fill">حكم صحيح. الصفحتان 6 و7 تغطيان الأعداد ونوع الليزر.</td><td class="fill">حكم صحيح. الصفحة 10 تكفي.</td><td class="fill">تُقاس شهريًا نسبة الأحكام الصحيحة والإحالات المكتملة بعد المراجعة.</td></tr>
+    <tr><td>هل تحقق معيار القبول؟ (من المرة الأولى · بعد تصحيح · لم يتحقق)</td><td class="fill" colspan="4">تحقّق في الحالتين مع المساعد من المرة الأولى بعد مراجعتي للصفحات.</td></tr>
+    <tr><td>ما الذي صحّحته؟</td><td class="fill" colspan="4">اعتمدت الردّين بدون تعديل. أضاف المساعد الصفحة 7 لدليل نوع الليزر الذي فاتني في المراجعة اليدوية. في الحالة الثانية كانت الصفحة 10 كافية.</td></tr>
+  </table>
+</div></div><div class="report-note"><p><strong>ما الذي تغيّر؟</strong> انخفض الوقت الإجمالي من 9:27 إلى 1:46. كانت الأحكام صحيحة في الحالتين بالطريقتين. اكتملت الإحالة يدويًا في حالة من اثنتين ومع المساعد في الحالتين.</p><p>راجعت الجملتين يدويًا أولًا. قد تؤثر معرفة موضع الدليل في النتيجة. يعتمد تقدير الأثر الشهري على هاتين الحالتين وعلى 50 جملة في الشهر.</p></div></div><footer class="sheet-foot"><span>برنامج رفع الإنتاجية بالذكاء الاصطناعي · أكاديمية سدايا</span><span>وين الدليل؟</span></footer></article><article class="sheet" id="sheet-4"><div class="sheet-head"><div><div class="section-path">وين الدليل؟ &nbsp; / &nbsp; لوحة المشروع</div><h1>المخاطر والمتابعة</h1></div><span class="page-no">4 / 4</span></div><div class="sheet-body"><div class="step" id="step-8">
+  <h2>8 · المخاطر والضوابط، وخطة 30 يومًا</h2>
+  <div class="wrap"><table>
+    <tr><th>البند</th><th>التطبيق في المشروع</th></tr>
+    <tr><td>أسوأ ما قد يحدث لو اعتُمد المخرج دون مراجعة</td><td class="fill">قد أعتمد قيمة أو مصطلحًا لا يدعمه المرجع وأنسبه إليه في التقرير.</td></tr>
+    <tr><td>الضابط الذي يمنعه (صلاحية، نقطة مراجعة، قاعدة «لا»)</td><td class="fill">أفتح المرجع قبل الاعتماد وأقارن كل جزء مهم بالصفحة، وأعلّق إدراج أي جملة لا أجد لها دليلًا. أتحقق من إذن رفع المواد.</td></tr>
+    <tr><td>الإفصاح عن استخدام الذكاء الاصطناعي</td><td class="fill">استخدمت ChatGPT للبحث عن الدليل واقتراح الحكم. راجعتُ الصفحات بنفسي واعتمدتُ النتيجة.</td></tr>
+    <tr><td>اليوم الأول · الأسبوع الأول · الشهر الأول</td><td class="fill">في اليوم الأول أجرّب على جملة من تقرير جارٍ. خلال الأسبوع الأول أسجّل عدد الحالات والوقت والتصحيحات. بنهاية الشهر أراجع الأخطاء وأحسب الوفر الفعلي.</td></tr>
+    <tr><td>قرار الاستمرار بعد شهر</td><td class="fill">أستمر إذا وفّر وقتًا وتحقّقت من جميع الإحالات التي اعتمدتها. أعدّل التعليمات عند تكرّر نقص الإحالة. أوقف اعتماد أي نتيجة إذا تعذّر التحقق من دليلها.</td></tr>
+  </table>
+</div></div><section class="plan"><h3>متابعة الاستخدام خلال الشهر</h3><div class="wrap"><table>
+<thead>
+<tr class="header">
+<th>الفترة</th>
+<th>الإجراء</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>الأيام 1–7</td>
+<td>أسجّل عدد الجمل التي تحقّقت منها في التقارير والبحوث الجارية.</td>
+</tr>
+<tr class="even">
+<td>الأيام 8–14</td>
+<td>أسجّل الوقت شاملًا المراجعة وأوثّق التصحيحات.</td>
+</tr>
+<tr class="odd">
+<td>الأيام 15–21</td>
+<td>أراجع الأخطاء المتكررة وأحسّن التعليمات عند الحاجة وأعيد الاختبارات المتأثرة.</td>
+</tr>
+<tr class="even">
+<td>الأيام 22–30</td>
+<td>أحسب الوفر بناءً على الاستخدام الفعلي وأقارنه بالتقدير الأولي.</td>
+</tr>
+</tbody>
+</table></div></section></div><footer class="sheet-foot"><span>برنامج رفع الإنتاجية بالذكاء الاصطناعي · أكاديمية سدايا</span><span>وين الدليل؟</span></footer></article></main></body></html>
